@@ -1,0 +1,55 @@
+    .navvar
+    {
+    width:400px;
+    height:50px;
+    background-color:green;
+    margin:0 auto;
+    }
+a
+    {
+      color:white;
+      font-size:20px;
+      text-decoration:none;
+      font-family:fantasy;
+      
+    }
+.navvar ul li
+    {
+      list-style:none;
+      margin:15px;
+      float:left;
+    }
+.navvar ul li a:hover
+    {
+      color:#DC9D17;
+      font-size:20px;
+      cursor:pointer;
+    }
+.navvar ul 
+    {
+      margin:0 auto;
+    }
+    
+img
+    {
+      width:90%;
+      height:105%;
+      margin-top:100px;
+      border:15px double black;
+    }
+    
+body
+    {
+    background-color:powderblue;
+    }
+    
+.cen
+    {
+    text-align:center;
+    }
+    
+.about
+    {
+    margin-top: 20px;
+    padding-top:25px;
+    }

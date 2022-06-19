@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    *
+    {
+        background-color:#FFFFFF;
+    }
+    #center
+    {
+        text-align:center;
+        font-size:20px;
+        padding-top:40%;
+    }
+    
+    .box
+    {
+            width:80%;
+            margin:15px;
+            height:35px;
+            border:1px solid black;
+    }
+    
+    .login
+    {
+        background-color:#0070BD;
+        color:white;
+        font-size:18px;
+        font-style:bolder;
+        padding:center;
+    }
+    #forget
+    {
+        color:#0070BD;
+        font-size:15px;
+        text-decoration:none;
+    }
+    
+    h1
+    {
+        color:#0070BD;
+    }
+    </style>
+    <title></title>
+</head>
+
+<body>
+<div id="center"><h1>Facebook</h1>
+<input type="text" for="username" placeholder="Enter you username" class="box" id="username">
+<br>
+<input type="password" for="pass" placeholder="Enter your password" class="box" id="password">
+<input type="Submit" value="Login" class="box login" onclick="login()">
+<br>
+<a href="#" id="forget">Forgotten Password?</a>
+</div>
+<script type="text/javascript">
+document.write('hello')
+function login()
+{
+var uname=document.getElementById('username').value;
+var pass = document.getElementById('password').value;
+    document.write(uname);
+    document.write('\n')
+    document.write(pass);
+}
+</script>
+</body>
+
+</html>

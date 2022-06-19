@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Login Page</title>
+    <style type="text/css">
+    body
+    {
+        background-color:steelblue;
+    }
+    div
+    {
+        height:500px;
+        text-align:center;
+        margin:150px 20px;
+        background-color:white;
+        box-shadow:10px 10px 15px 10px black;
+    }
+    
+    h1
+    {
+        padding-top:40px;
+        font-size:25px;
+    }
+    .box
+    {
+        margin:20px;
+        width:80%;
+        height:40px;
+        border:2px solid powderblue;
+        box-shadow:0px 5px 10px 0px black;
+    }
+    
+    .login
+    {
+        background-color:#ABCD;
+        color:white;
+        font-size:20px;
+        font-weight:bolder;
+        box-shadow:0px 5px 10px 0px black;
+    }
+        
+    </style>
+    <script>
+    function login()
+    {
+        var uname = document.getElementById("username").value;
+        var pass = document.getElementById("password").value;
+        // document.write("Username : "+uname+"        "+"Password : "+pass);
+        if(uname == "elliot" && pass == "azad")
+        {
+            location.assign("home.html")
+            console.log("You are in");
+        }
+    }
+    </script>
+</head>
+
+<body>
+<div>
+<h1>Welcome To Login Page</h1>
+<h1><input type="text" for="username" id="username" placeholder="Enter your user name" class="box"></h1>
+<h1><input type="password" for="password" id="password" placeholder="Enter your password" class="box"></h1>
+<input type="submit" value="Login"
+class="box login" onclick="login()">
+</div>    
+</body>
+
+</html>
